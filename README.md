@@ -16,30 +16,7 @@ while n != 1:
 
 print(n)
 ```
-
-- Thuật toán Euclid (F43 trang 100)
-```
-# Cách 1
-a = int(input("a = "))
-b = int(input("b = "))
-
-while b != 0:
-    a, b = b, a % b
-
-print("GCD =", a)
-
-# Cách 2
-a = int(input("a = "))
-b = int(input("b = "))
-
-while b != 0:
-    so_du = a % b
-    a = b
-    b = so_du
-
-print("GCD =", a)
-```
-- Đảo dấu vàng
+- Đảo dấu vàng (F68 trang 42)
 ```
 # Cách 1
 import math
@@ -70,7 +47,28 @@ for huong in duong_di:
 
 print(math.sqrt(x**2 + y**2))
 ```
+- Thuật toán Euclid (F43 trang 100)
+```
+# Cách 1
+a = int(input("a = "))
+b = int(input("b = "))
 
+while b != 0:
+    a, b = b, a % b
+
+print("GCD =", a)
+
+# Cách 2
+a = int(input("a = "))
+b = int(input("b = "))
+
+while b != 0:
+    so_du = a % b
+    a = b
+    b = so_du
+
+print("GCD =", a)
+```
 
 Tin học 11 - Khoa học máy tính
 
