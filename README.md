@@ -1,8 +1,8 @@
-Hồi cấp 3, mình được giới thiệu đến ngôn ngữ lập trình Python. Mặc dù trường lúc đó không yêu cầu bắt buộc học ngoài chương trình, mình học thêm vì niềm yêu đối với lập trình.
+Hồi cấp 3, mình được giới thiệu với ngôn ngữ lập trình Python. Mặc dù trường lúc đó không bắt buộc học thêm ngoài chương trình, mình vẫn học vì niềm yêu thích đối với lập trình.
 
-Đây là những bài tập mình thấy thú vị mà được giới thiệu trong sách của bộ sách Cánh diều:
+Đây là những thuật toán mà mình thấy hay được giới thiệu trong sách thuộc bộ sách Cánh diều:
 
-Bài tập Tin học 10
+### Bài tập Tin học 10
 - Giả thuyết Collatz (F54 trang 37)
 ```
 n = int(input())
@@ -38,7 +38,7 @@ while b != 0:
 print("GCD =", a)
 ```
 
-Tin học 11 - Khoa học máy tính
+### Tin học 11 - Khoa học máy tính
 - Thuật toán sàng Eratosthenes (Bài 4 trang 105)
 ```
 def SieveOfEratosthenes(n):
@@ -57,8 +57,7 @@ def SieveOfEratosthenes(n):
 ```
 - Phép kiểm tra Miller-Rabin, Phép kiểm tra Solovay-Strassen (Bài 4 trang 106)
 
-Bài tập Tin học 11
-
+### Bài tập Tin học 11
 - Dãy số Catalan (F<sup>CS</sup>5 trang 43)
 ```
 # Cách 1
@@ -79,7 +78,6 @@ import math
 for i in range(10):
     print(math.comb(2 * i, i) // (i + 1))
 ```
-
 - Tam giác Pascal (F<sup>CS</sup>7 trang 44)
 ```
 n = int(input())
@@ -95,7 +93,6 @@ for i in range(n + 1):
 
 print(*C[n])
 ```
-
 - Bài toán Josephus (F<sup>CS</sup>45 trang 65)
 ```
 # Cách 1
@@ -145,4 +142,4 @@ for i in range(2, n + 1):
 print(survivor + 1)
 ```
 
-Chuyên đề học tập Tin học 11 - Khoa học máy tính
+### Chuyên đề học tập Tin học 11 - Khoa học máy tính
