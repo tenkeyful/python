@@ -87,7 +87,7 @@ for i in range(1, n + 1):
         C_i += C[j] * C[i - 1 - j]
     C.append(C_i)
 
-print(C) # thêm * trước C để bỏ []
+print(*C)
 
 # Cách 2
 import math
