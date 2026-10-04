@@ -77,7 +77,23 @@ Bài tập Tin học 11
 
 - Dãy số Catalan (F<sup>CS</sup>5 trang 43)
 ```
+# Cách 1
+n = int(input())
 
+C = [1]
+for i in range(1, n + 1):
+    C_i = 0
+    for j in range(i):
+        C_i += C[j] * C[i - 1 - j]
+    C.append(C_i)
+
+print(C) # thêm * trước C để bỏ []
+
+# Cách 2
+import math
+
+for i in range(10):
+    print(math.comb(2 * i, i) // (i + 1))
 ```
 
 - Tam giác Pascal (F<sup>CS</sup>7 trang 44)
