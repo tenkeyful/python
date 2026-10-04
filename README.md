@@ -3,7 +3,6 @@ Hồi cấp 3, mình được giới thiệu đến ngôn ngữ lập trình Pyt
 Đây là những bài tập mình thấy thú vị mà được giới thiệu trong sách của bộ sách Cánh diều:
 
 Bài tập Tin học 10
-
 - Giả thuyết Collatz (F54 trang 37)
 ```
 n = int(input())
@@ -71,7 +70,22 @@ print("GCD =", a)
 ```
 
 Tin học 11 - Khoa học máy tính
+- Thuật toán sàng Eratosthenes (Bài 4 trang 105)
+```
+def SieveOfEratosthenes(n):
+    prime = [True for i in range(n + 1)]
+    p = 2
 
+    while (p * p <= n):
+        if prime[p]:
+            for i in range(p * p, n + 1, p):
+                prime[i] = False
+        p += 1
+
+    prime[0] = False
+    prime[1] = False
+    return prime
+```
 
 Bài tập Tin học 11
 
