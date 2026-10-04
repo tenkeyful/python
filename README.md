@@ -39,6 +39,38 @@ while b != 0:
 
 print("GCD =", a)
 ```
+- Đảo dấu vàng
+```
+# Cách 1
+import math
+
+s = input()
+x = s.count("E") - s.count("W")
+y = s.count("N") - s.count("S")
+
+print(math.sqrt(x**2 + y**2))
+
+# Cách 2
+import math
+
+duong_di = input("")
+
+x = 0
+y = 0
+
+for huong in duong_di:
+    if huong == "E":
+        x += 1
+    elif huong == "W":
+        x -= 1
+    elif huong == "N":
+        y += 1
+    elif huong == "S":
+        y -= 1
+
+print(math.sqrt(x**2 + y**2))
+```
+
 
 Tin học 11 - Khoa học máy tính
 
