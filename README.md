@@ -33,9 +33,9 @@ a = int(input("a = "))
 b = int(input("b = "))
 
 while b != 0:
-    remainder = a % b
+    so_du = a % b
     a = b
-    b = remainder
+    b = so_du
 
 print("GCD =", a)
 ```
