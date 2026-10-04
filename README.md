@@ -15,37 +15,6 @@ while n != 1:
 
 print(n)
 ```
-- Đảo dấu vàng (F68 trang 42)
-```
-# Cách 1
-import math
-
-s = input()
-x = s.count("E") - s.count("W")
-y = s.count("N") - s.count("S")
-
-print(math.sqrt(x**2 + y**2))
-
-# Cách 2
-import math
-
-duong_di = input("")
-
-x = 0
-y = 0
-
-for huong in duong_di:
-    if huong == "E":
-        x += 1
-    elif huong == "W":
-        x -= 1
-    elif huong == "N":
-        y += 1
-    elif huong == "S":
-        y -= 1
-
-print(math.sqrt(x**2 + y**2))
-```
 - Thuật toán Euclid (F43 trang 100)
 ```
 # Cách 1
@@ -86,6 +55,7 @@ def SieveOfEratosthenes(n):
     prime[1] = False
     return prime
 ```
+- Phép kiểm tra Miller-Rabin, Phép kiểm tra Solovay-Strassen (Bài 4 trang 106)
 
 Bài tập Tin học 11
 
