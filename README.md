@@ -2,6 +2,8 @@ Hồi cấp 3, mình được giới thiệu với ngôn ngữ lập trình Pyth
 
 Đây là những thuật toán mà mình thấy hay được giới thiệu trong sách thuộc bộ sách Cánh diều:
 
+### [Tin học 10 - Khoa học máy tính](Tin%20học%2010%20-%20Khoa%20học%20máy%20tính)
+
 ### Bài tập Tin học 10
 - Giả thuyết Collatz (F54 trang 37)
 ```
