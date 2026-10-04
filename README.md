@@ -13,7 +13,7 @@ Bài tập Tin học 10 Cánh diều
 
 ```
 
-Tin học (Khoa học máy tính) 11
+Tin học 11 - Khoa học máy tính
 
 
 Bài tập Tin học 11 Cánh diều
