@@ -4,14 +4,40 @@ Hồi cấp 3, mình được giới thiệu đến ngôn ngữ lập trình Pyt
 
 Bài tập Tin học 10
 
-- Giả thuyết Collatz (F54 - 37)
+- Giả thuyết Collatz (F54 trang 37)
+```
+n = int(input())
+
+while n != 1:
+    if n % 2 == 0:
+        n //= 2
+    else:
+        n = 3 * n + 1
+
+print(n)
 ```
 
+- Thuật toán Euclid (F43 trang 100)
 ```
+# Cách 1
+a = int(input("a = "))
+b = int(input("b = "))
 
-- Thuật toán Euclid (F43 - 100)
-```
+while b != 0:
+    a, b = b, a % b
 
+print("GCD =", a)
+
+# Cách 2
+a = int(input("a = "))
+b = int(input("b = "))
+
+while b != 0:
+    remainder = a % b
+    a = b
+    b = remainder
+
+print("GCD =", a)
 ```
 
 Tin học 11 - Khoa học máy tính
@@ -19,17 +45,17 @@ Tin học 11 - Khoa học máy tính
 
 Bài tập Tin học 11
 
-- Dãy số Catalan (F<sup>CS</sup>5 - 43)
+- Dãy số Catalan (F<sup>CS</sup>5 trang 43)
 ```
 
 ```
 
-- Tam giác Pascal (F<sup>CS</sup>7 - 44)
+- Tam giác Pascal (F<sup>CS</sup>7 trang 44)
 ```
 
 ```
 
-- Bài toán Josephus (F<sup>CS</sup>45 - 65)
+- Bài toán Josephus (F<sup>CS</sup>45 trang 65)
 ```
 
 ```
