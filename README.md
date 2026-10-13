@@ -146,5 +146,3 @@ for i in range(2, n + 1):
 
 print(survivor + 1)
 ```
-
-#### Chuyên đề học tập Tin học 11 - Khoa học máy tính
