@@ -57,7 +57,10 @@ def SieveOfEratosthenes(n):
     prime[1] = False
     return prime
 ```
-- Phép kiểm tra Miller-Rabin, Phép kiểm tra Solovay-Strassen (Bài 4 trang 106)
+> [!NOTE]
+> TODO: (Bài 4 trang 106)
+> - Phép kiểm tra Miller-Rabin
+> - Phép kiểm tra Solovay-Strassen
 
 #### Bài tập Tin học 11
 - Dãy số Catalan (F<sup>CS</sup>5 trang 43)
