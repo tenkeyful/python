@@ -6,7 +6,7 @@ Hồi cấp 3, mình được giới thiệu với ngôn ngữ lập trình Pyth
 
 #### Bài tập Tin học 10
 - Giả thuyết Collatz (F54 trang 37)
-```
+```python
 n = int(input())
 
 while n != 1:
@@ -18,7 +18,7 @@ while n != 1:
 print(n)
 ```
 - Thuật toán Euclid (F43 trang 100)
-```
+```python
 # Cách 1
 a = int(input("a = "))
 b = int(input("b = "))
@@ -42,7 +42,7 @@ print("GCD =", a)
 
 #### Tin học 11 - Khoa học máy tính
 - Thuật toán sàng Eratosthenes (Bài 4 trang 105)
-```
+```python
 def SieveOfEratosthenes(n):
     prime = [True for i in range(n + 1)]
     p = 2
@@ -64,7 +64,7 @@ def SieveOfEratosthenes(n):
 
 #### Bài tập Tin học 11
 - Dãy số Catalan (F<sup>CS</sup>5 trang 43)
-```
+```python
 # Cách 1
 n = int(input())
 
@@ -84,7 +84,7 @@ for i in range(10):
     print(math.comb(2 * i, i) // (i + 1))
 ```
 - Tam giác Pascal (F<sup>CS</sup>7 trang 44)
-```
+```python
 n = int(input())
 C = []
 
@@ -99,7 +99,7 @@ for i in range(n + 1):
 print(*C[n])
 ```
 - Bài toán Josephus (F<sup>CS</sup>45 trang 65)
-```
+```python
 # Cách 1
 class Node:
     def __init__(self, data):
