@@ -146,3 +146,29 @@ for i in range(2, n + 1):
 
 print(survivor + 1)
 ```
+
+#### Chuyên đề học tập Tin học 11 - Khoa học máy tính
+- Dãy số Fibonacci (Bài 1 trang 5, 6)
+```python
+# Cách 1
+n = int(input())
+a, b = 0, 1
+
+for i in range(n):
+    print(a, end=" ")
+    a, b = b, a + b
+
+n = int(input("Nhập số lượng số Fibonacci: "))
+
+# Cách 2
+n = int(input())
+a, b, i = 0, 1, 0
+
+while i < n:
+    print(a, end=" ")
+    a, b = b, a + b
+    i += 1
+```
+
+> [!IMPORTANT]
+> Còn lại tất cả bài trong `Chuyên đề học tập Tin học 11 - Khoa học máy tính` và `Chuyên đề học tập Tin học 12 - Khoa học máy tính` đi chuyên sâu vào cấu trúc dữ liệu và giải thuật như là thuật toán chia để trị và cây nhị phân.
