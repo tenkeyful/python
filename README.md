@@ -158,8 +158,6 @@ for i in range(n):
     print(a, end=" ")
     a, b = b, a + b
 
-n = int(input("Nhập số lượng số Fibonacci: "))
-
 # Cách 2
 n = int(input())
 a, b, i = 0, 1, 0
